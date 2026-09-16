@@ -1,0 +1,17 @@
+{
+  "name": "oprec-protic-26",
+  "version": "1.0.0",
+  "description": "Open Recruitment PROTIC 2026/2027",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx serve .",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "PROTIC PNC",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
